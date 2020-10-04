@@ -1,0 +1,11 @@
+@import url(./_type/header__link_type_arrow.css);
+@import url(./_type/header__link_type_bell.css);
+@import url(./_type/header__link_type_eye.css);
+@import url(./_type/header__link_type_search.css);
+
+.header__link {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-right: 22px;
+}
