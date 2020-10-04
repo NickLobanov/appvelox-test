@@ -5,7 +5,7 @@ import Footer from './Footer';
 function Aside() {
     return(
         <aside className="aside">
-            <h2>Логотип</h2>
+            <h2 className="aside__logo">Логотип</h2>
             <ul className="aside__list">
                 <li className="aside__item">Профиль</li>
                 <li className="aside__item">Врачи и клиники</li>

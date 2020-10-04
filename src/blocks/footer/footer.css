@@ -1,0 +1,8 @@
+@import url(./__img/footer__img.css);
+@import url(./__text/footer__text.css);
+
+.footer {
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: 16px;
+}
