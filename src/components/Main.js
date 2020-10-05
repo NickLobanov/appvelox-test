@@ -2,13 +2,13 @@ import React from 'react';
 import Header from './Header';
 import Appointments from './Appointments';
 import ECard from './ECard';
-
+import data from '../data/data.js'
 
 function Main() {
     return(
         <div className="wrap">
             <Header />
-            <Appointments />
+            <Appointments data={data}/>
             <ECard />
         </div>
         

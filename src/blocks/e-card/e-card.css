@@ -3,9 +3,11 @@
 @import url(./__list-item/e-card__list-item.css);
 @import url(./__info/e-card__info.css);
 @import url(./__image/e-card__image.css);
+@import url(./__text/e-card__text.css);
 
 .e-card {
     width: 540px;
+    min-height: 185.5px;
     display: flex;
     box-shadow: 0px 0px 5px #EBE7FF;
     border-radius: 5px;
