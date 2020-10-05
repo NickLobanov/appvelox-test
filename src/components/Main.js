@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './Header';
-import Card from './Card';
+import Appointments from './Appointments';
+
 
 function Main() {
     return(
         <div className="wrap">
             <Header />
-            <h2>Записи на прием</h2>
-            <Card />
+            <Appointments />
         </div>
         
     )

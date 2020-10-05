@@ -1,0 +1,11 @@
+@import url(./__title/appointment__title.css);
+@import url(./__card-wrap/appointment__card-wrap.css);
+@import url(./__link/appointment__link.css);
+@import url(./__count/appointment__count.css);
+
+.appointment {
+    width: 1096px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
