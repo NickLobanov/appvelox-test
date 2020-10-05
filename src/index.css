@@ -11,3 +11,7 @@
 @import url(./blocks/profile-card/profile-card.css);
 @import url(./blocks/patient-card/patient-card.css);
 @import url(./blocks/e-card/e-card.css);
+@import url(./blocks/e-card/__image/_type/e-card__image_type_add.css);
+@import url(./blocks/e-card/__image/_type/e-card__image_type_test.css);
+@import url(./blocks/e-card/__image/_type/e-card__image_type_history.css);
+@import url(./blocks/e-card/__image/_type/e-card__image_type_info.css);
