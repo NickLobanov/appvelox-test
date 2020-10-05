@@ -1,0 +1,7 @@
+.e-card__image {
+    width: 133px;
+    background-image: url(../../../image/patientinfo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #50CAFF;
+}

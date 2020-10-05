@@ -1,0 +1,8 @@
+.e-card__title {
+    font-size: 28px;
+    line-height: 33px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #EBE7FF;
+}

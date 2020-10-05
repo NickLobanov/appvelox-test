@@ -1,0 +1,16 @@
+.e-card__list-item {
+    font-size: 16px;
+    line-height: 24px;
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.e-card__list-item::before {
+    color: #50CAFF;
+    content: "•"; 
+    padding-right: 10px;
+}
+
+.e-card__list-item:last-child {
+    margin-bottom: 20px;
+}

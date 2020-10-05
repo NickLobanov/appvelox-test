@@ -1,0 +1,9 @@
+@import url(./__title/profile-card__title.css);
+@import url(./__wrap/profile-card__wrap.css);
+
+.profile-card {
+    width: 1096px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}

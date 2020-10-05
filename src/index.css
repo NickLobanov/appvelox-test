@@ -8,3 +8,6 @@
 @import url(./blocks/header/__link/_type/header__link_type_profile.css);
 @import url(./blocks/card/card.css);
 @import url(./blocks/appointment/appointment.css);
+@import url(./blocks/profile-card/profile-card.css);
+@import url(./blocks/patient-card/patient-card.css);
+@import url(./blocks/e-card/e-card.css);
