@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Card from './Card';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 function AllSign({data}) {
+
+    const [date, setDate] = useState(new Date());
+    const onChange = date => {
+        setDate(date)
+    }
 
     return(
         <div className="all-sign">
@@ -17,7 +24,7 @@ function AllSign({data}) {
                             src={data.url} />
                     ))}
                 </div>
-                <div className="all-sign__calendar"></div>
+                <div className="all-sign__calendar"><Calendar onChange={onChange} value={date}/></div>
             </div>
         </div>
     )

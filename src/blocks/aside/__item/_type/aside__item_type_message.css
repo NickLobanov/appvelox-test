@@ -1,6 +1,6 @@
 .aside__item_type_message::before {
     content: '';
-    background-image: url(../../../../image/message.png);
+    background-image: url(../../../../image/message.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

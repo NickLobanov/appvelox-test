@@ -1,6 +1,6 @@
 .aside__item_type_test::before {
     content: '';
-    background-image: url(../../../../image//test.png);
+    background-image: url(../../../../image/test.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
