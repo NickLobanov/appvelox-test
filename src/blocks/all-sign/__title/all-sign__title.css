@@ -1,0 +1,21 @@
+.all-sign__title {
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    margin-left: 72px;
+    margin-top: 15px;
+}
+
+.all-sign__title::before {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 14px;
+    position: absolute;
+    background-image: url(../../../image/sign-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -32px;
+    top: 2px
+}

@@ -4,7 +4,8 @@ import Aside from './Aside';
 import Header from './Header';
 import Appointments from './Appointments';
 import ECard from './ECard';
-import data from '../data/data.js'
+import data from '../data/data.js';
+import AllSign from './AllSign';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
                 <ECard />
               </Route>
               <Route path="/all-sign">
-                <ECard />
+                <AllSign data={data} />
               </Route>
             </Switch>
             
