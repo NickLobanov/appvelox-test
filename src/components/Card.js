@@ -8,7 +8,7 @@ function Card({ time, name, hospital, spec, src}) {
             <h2 className="card__title">{time}</h2>
             <p className="card__text">{hospital}</p>
                 <div className="card__wrap">
-                    <img className="card__image" src={src}/>
+                    <img className="card__image" src={`../../public/${src}`}/>
                     <div className="card__doc-info">
                         <h3 className="card__name">{name}</h3>
                         <p className="card__speciality">{spec}</p>
