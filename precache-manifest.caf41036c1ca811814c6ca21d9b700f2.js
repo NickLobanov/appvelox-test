@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "901f2f784005a090db14db60bb348e9a",
+    "revision": "b0bc1139d983dab9e1aeb71660f4e4da",
     "url": "/appvelox-test/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appvelox-test/static/css/2.8dbe6964.chunk.css"
   },
   {
-    "revision": "648b68984422a4ea2b2e",
+    "revision": "73c88683564da160874b",
     "url": "/appvelox-test/static/css/main.ce1906ae.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appvelox-test/static/js/2.84b7dc41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "648b68984422a4ea2b2e",
-    "url": "/appvelox-test/static/js/main.28c4d16b.chunk.js"
+    "revision": "73c88683564da160874b",
+    "url": "/appvelox-test/static/js/main.1582810c.chunk.js"
   },
   {
     "revision": "28e267cbae6a63895388",
