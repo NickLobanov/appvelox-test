@@ -56,7 +56,7 @@ function Aside() {
             <h2 className="aside__logo">Логотип</h2>
             <ul className="aside__list">
                 <li className={`aside__item aside__item_type_profile ${isProfile && 'aside__item_type_active'}`}>
-                    <Link to='/' className={`aside__link ${isProfile && 'aside__link_type_active'}`} 
+                    <Link to='/appvelox-test' className={`aside__link ${isProfile && 'aside__link_type_active'}`} 
                         onClick={handleClickProfile}>Профиль</Link>
                 </li>
                 <li className={`aside__item aside__item_type_doc ${isDoc && 'aside__item_type_active'}`}>
