@@ -4,4 +4,18 @@
     font-weight: 400;
     color: #ffffff;
     margin-bottom: 14px;
+    position: relative;
+}
+
+.footer__text::before {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-image: url(../../../image/help.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: -40px
 }
