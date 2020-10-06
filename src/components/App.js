@@ -15,7 +15,7 @@ function App() {
         <div className="wrap">
             <Header />
             <Switch>
-              <Route exact path='/'>
+              <Route exact path='/appvelox-test'>
                 <Appointments data={data}/>
                 <ECard />
               </Route>
