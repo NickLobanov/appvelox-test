@@ -13,7 +13,7 @@ function AllSign({data}) {
 
     return(
         <div className="all-sign">
-            <h2 className="all-sign__title"><Link to="/" className="all-sign__link">Мои записи</Link></h2>
+            <h2 className="all-sign__title"><Link to="/appvelox-test" className="all-sign__link">Мои записи</Link></h2>
             <div className="all-sign__wrap">
                 <div className="all-sign__cards">
                     {data.map((data, index) => (
