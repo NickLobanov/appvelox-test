@@ -1,0 +1,8 @@
+.aside__item_type_test::before {
+    content: '';
+    background-image: url(../../../../image//test.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 45px;
+}

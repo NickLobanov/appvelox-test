@@ -7,11 +7,11 @@ function Aside() {
         <aside className="aside">
             <h2 className="aside__logo">Логотип</h2>
             <ul className="aside__list">
-                <li className="aside__item">Профиль</li>
-                <li className="aside__item">Врачи и клиники</li>
-                <li className="aside__item">Сообщения</li>
-                <li className="aside__item">Тестирование</li>
-                <li className="aside__item">Полезно знать</li>
+                <li className="aside__item aside__item_type_profile">Профиль</li>
+                <li className="aside__item aside__item_type_doc">Врачи и клиники</li>
+                <li className="aside__item aside__item_type_message">Сообщения</li>
+                <li className="aside__item aside__item_type_test">Тестирование</li>
+                <li className="aside__item aside__item_type_info">Полезно знать</li>
             </ul>
             <Button text={"Подать заявку"}/>
             <Footer />

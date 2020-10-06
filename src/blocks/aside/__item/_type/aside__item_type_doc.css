@@ -1,0 +1,8 @@
+.aside__item_type_doc::before {
+    content: '';
+    background-image: url(../../../../image/aside-doc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 45px;
+}

@@ -1,0 +1,8 @@
+.aside__item_type_profile::before {
+    content: '';
+    background-image: url(../../../../image/heart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 45px;
+}

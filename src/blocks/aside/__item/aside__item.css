@@ -1,6 +1,11 @@
+@import url(./_type/aside__item_type_doc.css);
+@import url(./_type/aside__item_type_info.css);
+@import url(./_type/aside__item_type_message.css);
+@import url(./_type/aside__item_type_profile.css);
+@import url(./_type/aside__item_type_test.css);
+
+
 .aside__item {
     padding: 15px 0;
     margin-bottom: 10px;
-    background-color: white;
-    padding-left: 53px;
 }
