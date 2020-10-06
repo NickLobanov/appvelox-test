@@ -1,6 +1,7 @@
 @import url(./__item/aside__item.css);
 @import url(./__list/aside__list.css);
 @import url(./__logo/aside__logo.css);
+@import url(./__link/aside__link.css);
 
 .aside {
     display: flex;
