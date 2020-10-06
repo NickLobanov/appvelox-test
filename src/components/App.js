@@ -21,8 +21,7 @@ function App() {
               <Route path="/all-sign">
                 <AllSign data={data} />
               </Route>
-            </Switch>
-            
+            </Switch>       
         </div>
     </div>
   );

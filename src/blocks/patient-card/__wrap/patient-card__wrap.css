@@ -1,4 +1,5 @@
 .patient-card__wrap {
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin-bottom: 0px;
 }

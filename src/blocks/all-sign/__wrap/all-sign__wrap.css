@@ -1,4 +1,5 @@
 .all-sign__wrap {
     display: flex;
     justify-content: space-between;
+    max-height: 83vh;
 }
