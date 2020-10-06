@@ -1,4 +1,5 @@
 .react-calendar {
+    border: none;
     border-radius: 5px;
     min-width: 581px;
     min-height: 481px;

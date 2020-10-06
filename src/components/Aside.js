@@ -11,24 +11,69 @@ function Aside() {
     const [isTest, setTest] = React.useState(false)
     const [isInfo, setInfo] = React.useState(false)
 
+    function handleClickProfile() {
+        setProfile(true)
+        setDoc(false)
+        setMessage(false)
+        setTest(false)
+        setInfo(false)
+    }
+
+    function handleClickDoc() {
+        setDoc(true)
+        setProfile(false)
+        setMessage(false)
+        setTest(false)
+        setInfo(false)
+    }
+
+    function handleClickMessage() {
+        setMessage(true)
+        setDoc(false)
+        setProfile(false)
+        setTest(false)
+        setInfo(false)
+    }
+
+    function handleClickTest() {
+        setTest(true)
+        setMessage(false)
+        setDoc(false)
+        setProfile(false)
+        setInfo(false)
+    }
+
+    function handleClickInfo() {
+        setInfo(true)
+        setMessage(false)
+        setDoc(false)
+        setProfile(false)
+        setTest(false)
+    }
+
     return(
         <aside className="aside">
             <h2 className="aside__logo">Логотип</h2>
             <ul className="aside__list">
                 <li className={`aside__item aside__item_type_profile ${isProfile && 'aside__item_type_active'}`}>
-                    <Link to='/all-sign' className="aside__link">Профиль</Link>
+                    <Link to='/' className={`aside__link ${isProfile && 'aside__link_type_active'}`} 
+                        onClick={handleClickProfile}>Профиль</Link>
                 </li>
-                <li className={`aside__item aside__item_type_doc ${isDoc && 'aside__item_active'}`}>
-                    Врачи и клиники
+                <li className={`aside__item aside__item_type_doc ${isDoc && 'aside__item_type_active'}`}>
+                    <Link to='/doc' className={`aside__link ${isDoc && 'aside__link_type_active'}`}
+                        onClick={handleClickDoc}>Врачи и клиники</Link>
                 </li>
-                <li className={`aside__item aside__item_type_message ${isMessage && 'aside__item_active'}`}>
-                    Сообщения
+                <li className={`aside__item aside__item_type_message ${isMessage && 'aside__item_type_active'}`}>
+                    <Link to='/message' className={`aside__link ${isMessage && 'aside__link_type_active'}`}
+                        onClick={handleClickMessage}>Сообщения</Link>
                 </li>
-                <li className={`aside__item aside__item_type_test ${isTest && 'aside__item_active'}`}>
-                    Тестирование
+                <li className={`aside__item aside__item_type_test ${isTest && 'aside__item_type_active'}`}>
+                    <Link to='/test' className={`aside__link ${isTest && 'aside__link_type_active'}`}
+                        onClick={handleClickTest}>Тестирование</Link>
                 </li>
-                <li className={`aside__item aside__item_type_info ${isInfo && 'aside__item_active'}`}>
-                    Полезно знать
+                <li className={`aside__item aside__item_type_info ${isInfo && 'aside__item_type_active'}`}>
+                    <Link to='/info' className={`aside__link ${isInfo && 'aside__link_type_active'}`} 
+                        onClick={handleClickInfo}>Полезно знать</Link>
                 </li>
             </ul>
             <Button text={"Подать заявку"}/>

@@ -24,4 +24,5 @@ button.react-calendar__month-view__days__day {
     background-color: #EBE7FF;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    height: 435px;
 }

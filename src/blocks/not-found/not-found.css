@@ -1,0 +1,6 @@
+@import url(./__title/not-found__title.css);
+
+.not-found {
+    height: 90%;
+    display: flex;
+}

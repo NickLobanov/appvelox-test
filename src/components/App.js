@@ -6,6 +6,7 @@ import Appointments from './Appointments';
 import ECard from './ECard';
 import data from '../data/data.js';
 import AllSign from './AllSign';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
               </Route>
               <Route path="/all-sign">
                 <AllSign data={data} />
+              </Route>
+              <Route path="*">
+                <NotFound />
               </Route>
             </Switch>       
         </div>

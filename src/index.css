@@ -1,7 +1,9 @@
-@import url(./blocks/page/page.css);
 @import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./blocks/page/page.css);
 @import url(./blocks/aside/aside.css);
 @import url(./blocks/aside/__item/_type/aside__item_type_active.css);
+@import url(./blocks/aside/__link/_type/aside__link_type_active.css);
 @import url(./blocks/button/button.css);
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/header/header.css);
@@ -22,3 +24,4 @@
 @import url(./blocks/all-sign/all-sign.css);
 @import url(./blocks/react-calendar/react-calendar_nav.css);
 @import url(./blocks/react-calendar/react-calendar.css);
+@import url(./blocks/not-found/not-found.css)
