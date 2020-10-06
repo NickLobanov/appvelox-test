@@ -20,3 +20,5 @@
 @import url(./blocks/e-card/_type/e-card__title_type_active.css);
 @import url(./blocks/e-card/_type/e-card__image_type_active.css);
 @import url(./blocks/all-sign/all-sign.css);
+@import url(./blocks/react-calendar/react-calendar_nav.css);
+@import url(./blocks/react-calendar/react-calendar.css);

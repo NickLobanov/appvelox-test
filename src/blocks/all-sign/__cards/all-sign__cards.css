@@ -3,7 +3,7 @@
     overflow-y: scroll;
     padding-right: 20px;
     margin-left: 20px;
-    width: 515px;
+    min-width: 515px;
 }
 
 .all-sign__cards::-webkit-scrollbar {

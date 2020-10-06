@@ -1,0 +1,6 @@
+.all-sign__calendar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 350px;
+}

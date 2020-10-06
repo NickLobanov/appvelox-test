@@ -25,7 +25,11 @@ function AllSign({data}) {
                             src={data.url} />
                     ))}
                 </div>
-                <div className="all-sign__calendar"><Calendar onChange={onChange} value={date}/></div>
+                <div className="all-sign__calendar"><Calendar onChange={onChange}
+                    prev2Label={''}
+                    next2Label={''}
+                    className={'react-calendar'}
+                    value={date}/></div>
             </div>
         </div>
     )
