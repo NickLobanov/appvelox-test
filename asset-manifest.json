@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/appvelox-test/static/css/main.26420a2c.chunk.css",
-    "main.js": "/appvelox-test/static/js/main.41ba5873.chunk.js",
-    "main.js.map": "/appvelox-test/static/js/main.41ba5873.chunk.js.map",
+    "main.js": "/appvelox-test/static/js/main.985e58a2.chunk.js",
+    "main.js.map": "/appvelox-test/static/js/main.985e58a2.chunk.js.map",
     "runtime-main.js": "/appvelox-test/static/js/runtime-main.81fa1e0b.js",
     "runtime-main.js.map": "/appvelox-test/static/js/runtime-main.81fa1e0b.js.map",
     "static/css/2.8dbe6964.chunk.css": "/appvelox-test/static/css/2.8dbe6964.chunk.css",
     "static/js/2.84b7dc41.chunk.js": "/appvelox-test/static/js/2.84b7dc41.chunk.js",
     "static/js/2.84b7dc41.chunk.js.map": "/appvelox-test/static/js/2.84b7dc41.chunk.js.map",
     "index.html": "/appvelox-test/index.html",
-    "precache-manifest.4ea00fc78432ffa4b5921aa630f07966.js": "/appvelox-test/precache-manifest.4ea00fc78432ffa4b5921aa630f07966.js",
+    "precache-manifest.70a376cfc61b674066775ff154f4b761.js": "/appvelox-test/precache-manifest.70a376cfc61b674066775ff154f4b761.js",
     "service-worker.js": "/appvelox-test/service-worker.js",
     "static/css/2.8dbe6964.chunk.css.map": "/appvelox-test/static/css/2.8dbe6964.chunk.css.map",
     "static/css/main.26420a2c.chunk.css.map": "/appvelox-test/static/css/main.26420a2c.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.8dbe6964.chunk.css",
     "static/js/2.84b7dc41.chunk.js",
     "static/css/main.26420a2c.chunk.css",
-    "static/js/main.41ba5873.chunk.js"
+    "static/js/main.985e58a2.chunk.js"
   ]
 }
