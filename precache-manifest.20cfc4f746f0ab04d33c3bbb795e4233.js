@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0bc1139d983dab9e1aeb71660f4e4da",
+    "revision": "7a28615a36da54b023f91642d0645b10",
     "url": "/appvelox-test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appvelox-test/static/css/2.8dbe6964.chunk.css"
   },
   {
-    "revision": "73c88683564da160874b",
-    "url": "/appvelox-test/static/css/main.ce1906ae.chunk.css"
+    "revision": "54a5c0b418b2e0aa8c94",
+    "url": "/appvelox-test/static/css/main.4033e299.chunk.css"
   },
   {
     "revision": "a464d066d28bf99657d3",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appvelox-test/static/js/2.84b7dc41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73c88683564da160874b",
+    "revision": "54a5c0b418b2e0aa8c94",
     "url": "/appvelox-test/static/js/main.1582810c.chunk.js"
   },
   {
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65cd65d0678aad117ad4a446ef43340d",
     "url": "/appvelox-test/static/media/heart.65cd65d0.svg"
+  },
+  {
+    "revision": "0d5f1085931899693f7dc801a6c46e5e",
+    "url": "/appvelox-test/static/media/help.0d5f1085.svg"
   },
   {
     "revision": "9dcfd7c55903f882eb4eab8b1fb650ab",
