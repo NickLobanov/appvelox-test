@@ -4,6 +4,8 @@
     position: relative;
     margin-left: 72px;
     margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
 }
 
 .all-sign__title::before {

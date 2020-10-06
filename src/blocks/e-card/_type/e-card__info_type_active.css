@@ -1,0 +1,6 @@
+.e-card__info_type_active {
+    border: 2px solid #50CAFF;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

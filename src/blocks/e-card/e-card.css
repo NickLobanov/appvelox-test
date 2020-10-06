@@ -12,5 +12,5 @@
     box-shadow: 0px 0px 5px #EBE7FF;
     border-radius: 5px;
     margin-bottom: 15px;
-    
+    box-sizing: border-box;
 }

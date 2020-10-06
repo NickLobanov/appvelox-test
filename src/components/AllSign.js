@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Card from './Card';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import { Link } from 'react-router-dom';
 
 function AllSign({data}) {
 
@@ -12,7 +13,7 @@ function AllSign({data}) {
 
     return(
         <div className="all-sign">
-            <h2 className="all-sign__title">Мои записи</h2>
+            <h2 className="all-sign__title"><Link to="/" className="all-sign__link">Мои записи</Link></h2>
             <div className="all-sign__wrap">
                 <div className="all-sign__cards">
                     {data.map((data, index) => (
