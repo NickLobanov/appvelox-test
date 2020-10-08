@@ -4,7 +4,7 @@ const data = [
         speciality: 'Хирургия',
         hospital: 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
         time: 'Понедельник 15.06.20 | 15:30',
-        url: "https://lh3.googleusercontent.com/proxy/ImqF_4qa_WqMyHI98PQk-pnrSbnocOckZbYZht4OWdaWmLdTYa3EZLmHsskJOAnEuL5ZTrsrTd5W_E5ok32NJWAzXLX5"
+        url: "https://image.freepik.com/free-photo/beautiful-young-female-doctor-looking-at-camera-in-the-office_1301-7781.jpg"
     },
     {
         name: 'Харьков В. С.',
@@ -18,7 +18,7 @@ const data = [
         speciality: 'Хирургия',
         hospital: 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
         time: 'Понедельник 15.06.20 | 15:30',
-        url: "https://lh3.googleusercontent.com/proxy/ImqF_4qa_WqMyHI98PQk-pnrSbnocOckZbYZht4OWdaWmLdTYa3EZLmHsskJOAnEuL5ZTrsrTd5W_E5ok32NJWAzXLX5"
+        url: "https://image.freepik.com/free-photo/beautiful-young-female-doctor-looking-at-camera-in-the-office_1301-7781.jpg"
     },
     {
         name: 'Харьков В. С.',
@@ -32,7 +32,7 @@ const data = [
         speciality: 'Хирургия',
         hospital: 'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
         time: 'Понедельник 15.06.20 | 15:30',
-        url: "https://lh3.googleusercontent.com/proxy/ImqF_4qa_WqMyHI98PQk-pnrSbnocOckZbYZht4OWdaWmLdTYa3EZLmHsskJOAnEuL5ZTrsrTd5W_E5ok32NJWAzXLX5"
+        url: "https://image.freepik.com/free-photo/beautiful-young-female-doctor-looking-at-camera-in-the-office_1301-7781.jpg"
     }
 ]
 
